@@ -35,8 +35,12 @@ function moveUp() {
 //Создание препятствий (pipe)
 var pipe = [];
 	pipe[0] = {
-	x : cvs.width,
+	x : cvs.width - 500,
 	y : -110,
+}
+	pipe[1] = {
+	x : cvs.width - 370,
+	y : - 30,
 }
 
 
